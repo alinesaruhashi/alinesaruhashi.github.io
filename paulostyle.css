@@ -1,0 +1,156 @@
+            body {
+            background-color: #f6ef60;
+            position:relative;
+            padding-bottom: 130px;
+            min-height: 100vh
+            }
+            
+            footer {
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 15px;
+            line-height: 200%;
+            clear:both;
+            font-family: 'Barriecito', cursive;
+            font-size: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%
+            }
+            
+            .outercontainer {
+            background-color: black;
+            color:white;
+            padding: 40px;
+            padding-top: 20px;
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 14pt;
+            width: 60%;
+            margin: auto;
+            margin-top: 0px;
+            margin-bottom: 50px    
+            }
+            
+            .outercontainer h2 {
+                font-family: 'Barriecito', cursive;
+                color:#fff649
+            }
+            
+            header {
+            background-color: black;
+            width: 100%;
+            position: fixed;
+            text-align: center;
+            font-family: 'Codystar', cursive;
+            clear:both;
+            right:0;   
+            }
+            
+
+#menu ul ul{
+position: absolute;
+visibility: hidden;
+}
+
+#menu ul li:hover ul{
+visibility:visible;
+}
+            #by {
+                font-size: 10pt;
+                font-family: 'Baloo Thambi 2', cursive;
+            }
+            
+            li {
+            display: inline;
+            margin: 20px;
+            }
+            
+            li a {text-decoration: none;
+            color: lightgray;
+                
+            }
+            
+            li a:hover {
+            color: white}
+            
+            .logo {height:60px;
+            width: 60px}
+            
+            .fa {
+              padding: 20px;
+              font-size: 30px;
+              width: 50px;
+              text-align: center;
+              text-decoration: none;
+              color: lightgray
+            }
+            
+            .fa:hover {
+            opacity: 0.7;
+            color: #fff649
+            }
+            
+            #outer {background-image: url(people.jpg);
+            background-repeat: no-repeat;
+            }
+
+            
+
+            .image {width: 100%;
+            height: 100%;
+            }
+            
+            .container {
+              position: relative;
+            width: 100%;
+              height: 400;
+            }
+
+            
+
+            
+            
+            @media screen and (max-width:900px){
+                header {
+                    position:absolute;
+                    width:180px;
+                    padding: 0;
+                    float:left;
+                    position: fixed;
+                    line-height: 70px;
+                    padding-right:20px;
+                   
+                }
+                
+                .outercontainer {
+                    float:left;
+                    
+                }
+                
+                body {
+                    padding-bottom: 400px;
+                  
+                        
+                }
+                
+                
+            }
+           
+            @media screen and (max-width:700px){
+                header {
+                    display:none
+                }
+                
+                .outercontainer {
+                    width: 95%;
+                    
+                }
+                
+                body {
+                    padding-bottom: 400px;
+                  
+                        
+                }
+                
+            }
